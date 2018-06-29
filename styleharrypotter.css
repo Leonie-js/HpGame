@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	cursor: none;
+}
+
+body {
+	background: url("hogwarts2.jpg") no-repeat fixed;
+	background-size: 150%;
+	overflow: hidden;
+	background-position: center;
+}
+
+.eye{
+	width: 40px;
+	height: 40px;
+	background-color: #000000;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.weye{
+	width: 10px;
+	height: 10px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	position: absolute;
+}
+
+
+.mousepointer {
+	position: absolute;
+	z-index: 10;
+}
+
+.mousepointer img{
+	width: 300px;
+}
+
+.ginny{
+	position: fixed;
+}
+
+.ginny img{
+	width: 525px;
+}
